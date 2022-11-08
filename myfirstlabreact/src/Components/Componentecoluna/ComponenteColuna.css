@@ -1,0 +1,17 @@
+.colunaArticle {
+    text-align: left;
+    padding: 10px;
+    margin: 0px;
+}
+.colArtImg {
+
+}
+.colArtTit {
+    font-size: 40px;    
+}
+.colArtTex {
+    font-size: 22px;
+    color:rgb(154, 164, 173);
+    font-weight:400;
+    width: 240px;
+}

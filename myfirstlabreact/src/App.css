@@ -1,0 +1,115 @@
+.App {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.AppframeTop {
+  /* width: 95%; */
+  background-color: rgba(30,35,51,255);
+  margin: 0 auto;
+}
+
+.ApplineOne {
+  /* font-size: 25px; */
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  /* align-content: space-between; */
+}
+
+.Appimg01 {
+  width: 50px;
+  height: 50px;
+}
+.Appimg02 {
+  width: 25px;
+  height: 12px;
+}
+
+.ApptitleFrame {
+  font-size: 65px;
+  font-weight: bold;
+  color: white;
+  margin-left: 50px;
+  width: 370px;
+  padding: 0px;
+  height: 25px;
+}
+
+.AppdescritionFrame {
+  font-size: 17px;
+  /* font-weight: bold; */
+  color: white;
+  margin-left: 50px;
+  padding: 0px;
+  height: 5px;
+ 
+}
+
+.AppAwesome {
+  background-color: white;
+  color: black;
+  margin: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.AppframeButton {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.ApplineTwo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+
+
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
